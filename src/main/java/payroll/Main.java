@@ -30,6 +30,9 @@ public class Main {
         System.out.println(he.toString());
         System.out.println(ce.toString());
         System.out.println(bpce.toString());
+        
+        // Output the earnings 
+        System.out.println(bpce.Earnings());
 
     }
 
