@@ -15,7 +15,22 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+
+        Employee e = new Employee("Bruce", "Wayne", "BAT001");
+        SalariedEmployee se = new SalariedEmployee("Peter", "Parker", "spider001");
+
+        HourlyEmployee he = new HourlyEmployee("David", "Banner", "HULK001");
+
+        CommissionEmployee ce = new CommissionEmployee("Clark", "Kent", "Super001");
+
+        BasePlusCommissionEmployee bpce = new BasePlusCommissionEmployee("Diana", "Carter", "www001");
+
+        System.out.println(e.toString());
+        System.out.println(se.toString());
+        System.out.println(he.toString());
+        System.out.println(ce.toString());
+        System.out.println(bpce.toString());
+
     }
-    
+
 }
